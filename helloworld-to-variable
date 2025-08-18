@@ -1,0 +1,56 @@
+
+/* 
+#include<stdio.h>
+int main(){
+    printf("Hello world !");
+}
+*/
+
+/* int, and double data type  output
+#include<stdio.h>
+int main(){
+    int x = 25;
+    double y = 67.84;
+    printf("the value is %d\n",age);
+    printf("the value is %d\n",x);
+   printf("the value is %lf\n",y);
+   printf(" the value is \%d and the value is %.5lf",x,y);
+ return 0;  
+}
+*/
+
+
+/* user input
+#include <stdio.h>
+
+int main() {
+
+ int age;
+ double marks;
+ printf("Enter the number & marks = ");
+ scanf("%d %lf",&age,&marks);
+  printf(" Her age is %d and my marks is %lf",age,marks);
+
+    return 0;
+}
+
+
+*/  mul,div,add,sub,remainder;
+#include <stdio.h>
+int main() {
+ int age;
+ double marks;
+ printf("Enter the number & marks = ");
+ scanf("%d %lf",&age,&marks);
+ age = age - 20;
+ marks = marks * 11.2;
+ age /=2;
+ age +=age;
+ age %=age;
+  printf(" Her age is %d and my marks is %lf",age,marks);
+ return 0;
+}
+
+/*
+
+
